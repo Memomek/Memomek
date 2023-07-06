@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GonzuDesing</title>
+
+
+  
+    <!-- referencia chat whatsappchat -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="floating-wpp.css">
+<script type="text/javascript" src="floating-wpp.js"></script>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon" />
+    <!-- icons -->
+    <!-- <script src="https://kit.fontawesome.com/ede94aab01.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body class="bg-gradient">
+    <!-- Sección del Menú  -->
+    <section class="bg-gradient menu">
+        <div class="menu__container container ">
+            <div class="menu__header">
+                <h2 class="menu__title">EcoFumigaciones LoboZ <i class="fa-sharp fa-solid fa-bug-slash -icon"></i></h2>
+                <!-- 💻🖥🖱💽💾 -->
+            </div>
+            <nav class="menu__nav">
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#inicio" active>INICIO</a></li>
+                    <li class="menu__list__item"><a href="#formacion">PLAGAS</a></li>
+                    <!-- <li class="menu__list__item"><a href="#xp">PORTaFOLIO</a></li> -->
+                    <!-- <li class="menu__list__item"><a href="#contacto">CONTACTO</a></li> -->
+                    <li class="menu__list__item"><a href="#sobre-mi">ACERCA </a></li>
+                    <!-- <li class="menu__list__item"><a href="#skills">HABILIDADES</a></li> -->
+
+                </ul>
+            </nav>
+            <div class="menu__burguer">
+                <i class="bi bi-list menu__icon-burguer"></i>
+                <i class="bi bi-x menu__icon-x menu_hidden"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección del Header/Title/Hero -->
+    <section class="title container " id="inicio">
+        <div class="title__div">
+            <div class="title__container">
+                <h3 class="title__hello animate__animated animate__flipInX">Hola, nosotros somos </h3>
+                <h2 class="title__hello animate__animated animate__flipInX"> EcoFumigaciones LoboZ</h2>
+
+                <hr class="divider">
+                <h3 class="title__name animate__animated animate__flipInX animate__delay-1s">Especialistas en todo tipo
+                    de fumigaciones,
+                    con el uso de productos amigables con el ambiente
+
+                </h3>
+                <!-- <h2 class="title__rol animate__animated animate__flipInX animate__delay-1s">
+                    < Ingeniero Informatico />
+                </h2> -->
+
+
+                <!-- <p class="title__description medium-font animate__animated animate__flipInX animate__delay-2s">
+                    Realizamos nuestro trabajo con productos ecológicos certificados, no tóxicos, adaptados a las condiciones específicas
+                    del lugar a aplicar.
+                </p> -->
+                <!-- <p class="title__description medium-font animate__animated animate__flipInX animate__delay-2s">
+                    Realizamos el Aseguramiento de área, Mitigación, Desinfección e Inactivación 
+
+                </p> -->
+                <ul class="title__network animate__animated animate__flipInX animate__delay-2s">
+                    <li class="title__network__item"><a href="https://www.facebook.com/EcoFumigacionesLoboZ" target="_blank"><i
+                                class="bi bi-facebook"></i> </a></li>
+                    <li class="title__network__item"><a
+                            href="https://www.linkedin.com/in/fernando-lobo-ramirez-98976936/?originalSubdomain=cr" target="_blank"><i
+                                class="bi bi-linkedin"></i></a></li>
+                    <li class="title__network__item"><a href=""><i class="bi bi-instagram"></i></a></li>
+                    <li class="title__network__item"><a href="" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                    <li class="title__network__item"><a href="mailto:eco.fumigaciones.loboz@gmail.com"
+                            target="_blank"><i class="bi bi-envelope"></i></a></li>
+                </ul>
+
+
+                <h2 class="title__name animate__animated animate__flipInX animate__delay-1s">Telefono: 84700326
+
+                </h2>
+
+            </div>
+            <div class="title__lottie animate__animated animate__fadeIn animate__delay-3s">
+                <lottie-player class="title__lottie-man"
+                    src="https://assets7.lottiefiles.com/packages/lf20_KoHGtQuRer.json" background="transparent"
+                    speed="1" style="width: 500px; height: 500px;" loop autoplay></lottie-player>
+            </div>
+        </div>
+        <div id="jquery-script-menu">
+            <div class="jquery-script-center">
+
+
+                <div class="jquery-script-clear"></div>
+            </div>
+        </div>
+
+        <div id="example"></div>
+        <a class="title_mouse" href="#sobre-mi">
+
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_onc0p4sf.json" background="transparent"
+                speed="1" style="width: 35px; height: 35px;" loop autoplay></lottie-player>
+            <h4>Conocer más</h4>
+            <i class="bi bi-chevron-down"></i>
+
+        </a>
+
+    </section>
+
+    <!-- <div class="spacer space-bottom"></div> -->
+
+    <!-- Sección sobre mi -->
+
+
+<div id="myButton"></div>
+    <section class="about bg-gradient" id="sobre-mi">
+        <div class="about__container container">
+            <h4 class="about__title">Conoscanos</h4>
+            <h2>Nuestra empresa y los productos son avalados y registrados ante el Ministerio de Salud.  
+                .</h2>
+            <div class="about__column">
+                <div class="blob"></div>
+                <div class="about__text">
+                    <p class="medium-font">Contamos con Amplia experiencia en el campo de la fumigación y desinfección. 
+                        .</p><br>
+                    <!-- <p class="medium-font">He trabajado en varios proyectos relacionados al desarrollo del front-end, el back-end, y demás que se pueden encontrar en el portfolio.</p><br> -->
+                    <p class="medium-font">Se trabaja con productos de alta calidad, debidamente registrados. 
+                    </p><br>
+                    <p class="medium-font">Se cuenta con flexibilidad de horarios (24/7).
+                    </p><br><br>
+                    <p class="medium-font">¿Qué tal si trabajamos juntos? </p><br><br>
+                    <!-- <a class="about__button button" href="#contacto">Contactame <i
+                            class="bi bi-send button-icon"></i></a> -->
+                            <p class="medium-font"></p>
+<br><br>
+<div class="list-group bg-dark bg-gradient">
+    <!-- <button type="button bg-dark" class="list-group-item list-group-item-action  active aria-current="true">
+        Lugares a Aplicar
+    </button>
+    <button type="button" class="list-group-item list-group-item-action">Viviendas</button>
+    <button type="button" class="list-group-item list-group-item-action">Locales</button>
+    <button type="button" class="list-group-item list-group-item-action bg-gradient">Oficinas</button>
+        <button type="button" class="list-group-item list-group-item-action">Bodegas</button>
+    <button type="button" class="list-group-item list-group-item-action">Hoteles</button>
+        <button type="button" class="list-group-item list-group-item-action">Centros Comerciales</button>
+    <button type="button" class="list-group-item list-group-item-action">Restaurantes</button>
+
+<br><br> -->
+<div class="row">
+    <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
+                href="#list-home" role="tab" aria-controls="list-home">Lugares a Aplicar</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                href="#list-profile" role="tab" aria-controls="list-profile">Viviendas</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                href="#list-messages" role="tab" aria-controls="list-messages">Locales</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                href="#list-settings" role="tab" aria-controls="list-settings">Bodegas</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings"
+                    role="tab" aria-controls="list-settings">Hoteles</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings"
+                        role="tab" aria-controls="list-settings">Centros Comerciales</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings"
+                            role="tab" aria-controls="list-settings">Restaurantes</a>
+        </div>
+    </div>
+    <div class="col-8 bg">
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"></div>
+<h3>Realizamos nuestro trabajo con productos ecológicos certificados, no tóxicos, adaptados a las condiciones específicas
+del lugar a aplicar.
+
+Realizamos el Aseguramiento de área, Mitigación, Desinfección e Inactivación </h3>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+        </div>
+    </div>
+</div>
+
+    <!-- <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button> -->
+</div>
+                </div>
+            </div>
+            <div class="about__features"></div>
+        </div>
+    </section>
+
+    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_yjp3ov7s.json" background="transparent" speed="1"
+        style="width: 100%; " loop autoplay></lottie-player>
+
+    <!-- Sección de Skills -->
+    <section class="skills container" id="skills">
+        <h4 class="skills__title">Hacemos la diferencia</h4>
+        <!-- <div class="skills__column">
+
+            <div class="skills__hard-skills">
+                <h2 class="skills-subtitle">Hard Skills</h2>
+                <div class="skills-cards" id="hard-skills">
+                    <div class="skill-box">
+                        <i class="fa-brands fa-html5 skill-icon"></i>
+                        <h5 class="skill-text">HTML</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-css3-alt skill-icon"></i>
+                        <h5 class="skill-text">CSS</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-js-square skill-icon"></i>
+                        <h5 class="skill-text">JAVASCRIPT</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-bootstrap skill-icon"></i>
+                        <h5 class="skill-text">BOOTSTRAP</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-database skill-icon"></i>
+                        <h5 class="skill-text">SQL</h5>
+                    </div>
+
+                    <div class="skill-box">
+                        <i class="fa-brands fa-git-alt skill-icon"></i>
+                        <h5 class="skill-text">GIT</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-react skill-icon "></i>
+                        <h5 class="skill-text">REACT(en curso)</h5>
+                    </div>
+                    <!-- <div class="skill-box">
+                        <i class="fa-brands fa-node-js skill-icon"></i>
+                        <h5 class="skill-text">NODE JS</h5>
+                    </div> -->
+
+                <!-- </div>
+            </div>
+
+            <div class="skills__soft-skills">
+                <h2 class="skills-subtitle">Soft Skills</h2>
+                <div class="skills-cards">
+                    <div class="skill-box">
+                        <i class="fa-solid fa-book skill-icon"></i>
+                        <h5 class="skill-text">Autodidacta</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-paintbrush skill-icon"></i>
+                        <h5 class="skill-text">Creativo</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-file skill-icon"></i>
+                        <h5 class="skill-text">COMPROMISO</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-brain skill-icon"></i>
+                        <h5 class="skill-text">growth mindset</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-child-reaching skill-icon"></i>
+                        <h5 class="skill-text">Liderazgo</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-people-group skill-icon"></i>
+                        <h5 class="skill-text">Trabajo en Equipo</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-comment skill-icon"></i>
+                        <h5 class="skill-text">Comunicación</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-chart-line skill-icon"></i>
+                        <h5 class="skill-text">Proactivo</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-dumbbell skill-icon"></i>
+                        <h5 class="skill-text">Resiliencia</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-hand-holding-hand skill-icon"></i>
+                        <h5 class="skill-text">Empatía</h5>
+                    </div>
+                </div>
+            </div>
+        </div>  -->
+    </section>
+
+    <!-- <div class="spacer space-bottom"></div> -->
+
+    <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <div class="academic_container container ">
+            <h2 class="academic__title">Plagas Comunes</h2>
+            <div class="academic__courses">
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__title">
+                            <h3>Cucarachas</h3>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>(Blattella germanica)</p>
+                        </li>
+
+                        <div class="card text-white bg-dark mb-3 academic_container container " style="width: 50%;">
+                            <img src="./assets/Cucaracha-Alemana-Blatella-Germanica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cucaracha</h5>
+                                <p class="card-text">La cucaracha rubia o alemana (Blattella germánica) es una especie
+                                    de insecto blatodeo de la familia Blattellidae. Los
+                                    ejemplares miden aproximadamente de 1,3 a 1,6 cm. Vive asociada a las viviendas
+                                    humanas y es una plaga que se ha
+                                    extendido por todos los continentes excepto en la Antártida.
+
+                                </p>
+                                <!-- <a href="https://es.wikipedia.org/wiki/Blattella_germanica" class="btn btn-primary">Info</a> -->
+                            </div>
+                        </div>
+
+
+
+
+
+                    </ul>
+                </div>
+
+
+
+
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__title">
+                            <h3>Roedores</h3>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>(Rodentia)</p>
+                        </li>
+
+                        <div class="card text-white bg-dark mb-3 academic_container container " style="width: 50%;">
+                            <img src="./assets/roedores.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Roedores</h5>
+                                <p class="card-text">Los roedores (Rodentia) son un orden de mamíferos placentarios con
+                                    aproximadamente 2280 especies actuales; es el orden
+                                    más numeroso de mamíferos. Pueden hallarse en gran número en todos los continentes
+                                    salvo la Antártida. Los roedores más
+                                    comunes son los ratones, ratas, ardillas, puercoespines, castores, hámsteres, jerbos
+                                    y conejillos de indias.
+
+                                    En Costa Rica se presentan 3 tipos principales de roedores identificados como
+                                    problemáticos para el ser humano, los
+                                    cuales son; Mus musculus (Ratón Casero), Rattus Rattus (rata negra) y Rattus
+                                    norvegicus (rata de alcantarilla)
+                                </p>
+                                <!-- <a href="https://es.wikipedia.org/wiki/Blattella_germanica" class="btn btn-primary">Info</a> -->
+                            </div>
+                        </div>
+
+
+
+
+
+                    </ul>
+                </div>
+
+
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__title">
+                            <h3>Plagas en Madera</h3>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>(Isoptera)</p>
+                        </li>
+
+                        <div class="card text-white bg-dark mb-3 academic_container container " style="width: 50%;">
+                            <img src="./assets/madera.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Plagas en Madera</h5>
+                                <p class="card-text">Los seres vivos que se alimentan de madera pueden ser de tipo muy
+                                    variado. Aunque se habla siempre de los insectos, no
+                                    son los únicos que pueden atacar nuestras casas:
+
+                                    Termitas: son pequeños insectos que se alimentan de la celulosa de la madera y
+                                    pueden atravesar hasta el hormigón para
+                                    llegar a las vigas. Las piezas de madera pueden estar consumidas por dentro y
+                                    presentar al exterior un aspecto normal.
+
+                                    Carcoma: son pequeños coleóteros que perforan la madera. Dejan señales como el
+                                    serrín a los pies de los muebles y
+                                    pequeños agujeros cuando termina su ciclo como larva.
+
+                                    Hongos xilófagos: son vegetales que se alimentan de madera. Su presencia se puede
+                                    percibir sobre la madera porque ésta
+                                    cambia de color, se oscurece y pueden estar acompañados por insectos. Necesitan
+                                    humedad para aparecer.
+
+                                    Ácaros: pertenecen a la familia de los arácnidos y son tan diminutos que no se ven.
+                                    Algunas especies se alimentan de
+                                    madera de forma voraz y, además, trituran los restos para que los hongos se instalen
+                                    en ellos.
+                                </p>
+                                <!-- <a href="https://es.wikipedia.org/wiki/Blattella_germanica" class="btn btn-primary">Info</a> -->
+                            </div>
+                        </div>
+
+
+
+
+
+                    </ul>
+                </div>
+
+
+
+
+
+
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__title">
+                            <h3>Plagas en Granos</h3>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>(Isoptera)</p>
+                        </li>
+
+                        <div class="card text-white bg-dark mb-3 academic_container container " style="width: 50%;">
+                            <img src="./assets/granos.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Plagas en Granos</h5>
+                                <p class="card-text">La presencia de insectos en el grano recolectado causa pérdidas cuantitativas de hasta un 30% y, lo que es más grave,
+                                deprecian la calidad del mismo hasta el punto que las partidas infestadas corren el riesgo de ser rechazadas.
+                                
+                                Normalmente, la fuente de insectos que infestan una nueva partida de grano almacenado proviene de poblaciones de
+                                insectos que han infectado grano almacenado con anterioridad.
+                                
+                                Estos insectos son:
+                                
+                                Gorgojo del trigo (Sitophilus granarius)
+                                
+                                Gorgojo del arroz (sitophilus oryzae)
+                                
+                                Gorgojo del maíz (Sitophilus zeamais)
+                                
+                                Capuchino de los granos (Rhyzopertha dominica)
+                                
+                                Palomilla de los cereales (Sitotroga cerealella)
+                                
+                                Palomilla de la harina (Ephestia kuehniella)
+                                </p>
+                                <!-- <a href="https://es.wikipedia.org/wiki/Blattella_germanica" class="btn btn-primary">Info</a> -->
+                            </div>
+                        </div>
+
+
+
+
+
+                    </ul>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="spacer space-bottom"></div> -->
+
+    <!-- <section class="experience__app" id="xp">
+        <div class="experience__app__div container">
+            <h4 class="experience__section__app__title">Portfolio - Aplicaciones</h4>
+            <div class="experience__websites">
+
+
+
+                <div class="experiencie__app__box">
+                    <h2 class="experience__app__title">Encriptador de textos</h2>
+                    <h3 class="experience__app__text">Challange Alura | Oracle ONE </h3>
+                    <a href="https://gonadr09.github.io/Encriptador-de-textos-Alura/" target="_blank">
+                        <div class="experience__app__img" id="app-1"></div>
+                    </a>
+                    <div class="experience__app__description">
+                        <span class="experience__repo"><a class="button"
+                                href="https://github.com/GonzuDesing/ChallengeOracleOne1.github.io">Repositorio <i
+                                    class="bi bi-github button-icon"></i></a></span>
+                        <span class="experience__demo"><a class="button"
+                                href="https://gonzudesing.github.io/ChallengeOracleOne1.github.io/">Ver demo <i
+                                    class="bi bi-globe button-icon"></i></a></span>
+                    </div>
+                </div>
+
+                <div class="experiencie__app__box">
+                    <h2 class="experience__title">Ahorcado</h2>
+                    <h3 class="experience__text">Challange Alura | Oracle ONE</h3>
+                    <a href="https://gonzudesing.github.io/challengeonejuegoahorcado2.github.io/" target="_blank">
+                        <div class="experience__app__img" id="app-2"></div>
+                    </a>
+                    <div class="experience__app__description">
+                        <span class="experience__repo"><a class="button"
+                                href="https://github.com/GonzuDesing/challengeonejuegoahorcado2.github.io">Repositorio
+                                <i class="bi bi-github button-icon"></i></a></span>
+                        <span class="experience__demo"><a class="button"
+                                href="https://gonzudesing.github.io/challengeonejuegoahorcado2.github.io/">Ver demo <i
+                                    class="bi bi-globe button-icon"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <div class="spacer space-top"></div> -->
+
+
+    <!-- Sección de Contacto -->
+    <!-- <section class="formcontato container" id="contacto">
+        <div class="formcontato__contacto">
+            <h4 class="formcontato__title">Contacto</h4>
+            <h2 class="formcontato__subtext">¿Qué tal si trabajamos juntos?</h2>
+            <h3 class="formcontato__subtext">Completá el siguiente formulario para ponernos en contacto</h3>
+            <form class="formcontato__form" name="form" action="https://formsubmit.co/gonzu.desing@gmail.com"
+                method="POST">
+
+                <label id="name-label" class="formcontato__label field_ok" for="name">
+                    <p class="formcontato__description">Nombre:</p>
+                    <input class="formcontato__input" id="name" type="text" name="name" autocomplete="off"
+                        data-valid="false">
+                    <p id="name-error" class="formcontato__error-message"></p>
+                </label>
+
+                <label id="email-label" class="formcontato__label field_ok" for="email">
+                    <p class="formcontato__description">Email:</p>
+                    <input class="formcontato__input" id="email" type="email" name="email" autocomplete="off"
+                        data-valid="false">
+                    <p id="email-error" class="formcontato__error-message"></p>
+                </label>
+
+                <label id="subject-label" class="formcontato__label field_ok" for="subject">
+                    <p class="formcontato__description">Asunto:</p>
+                    <input class="formcontato__input" id="subject" type="text" name="subject" autocomplete="off"
+                        data-valid="false">
+                    <p id="subject-error" class="formcontato__error-message"></p>
+                </label>
+
+                <label id="message-label" class="formcontato__label field_ok" for="message">
+                    <p class="formcontato__description">Mensaje:</p>
+                    <textarea class="formcontato__input" rows="5" cols="40" id="message" name="message"
+                        autocomplete="off" data-valid="false"></textarea>
+                    <p id="message-error" class="formcontato__error-message little-font"></p>
+                </label>
+
+                <button type="submit" id="submit_button" class="formcontato__button button" disabled>Enviar mensaje <i
+                        class="bi bi-send button-icon"></i></button>
+
+            </form>
+        </div>
+    </section> -->
+
+    <!-- <div class="spacer space-bottom"></div> -->
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_yjp3ov7s.json" background="transparent" speed="1"
+    style="width: 100%; " loop autoplay></lottie-player>
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__container container">
+            <h3>EcoFumigaciones LoboZ <i class="fa-sharp fa-solid fa-bug-slash -icon"></i></h3>
+            <ul class="title__network">
+                <!-- <li class="title__network__item"><a href="https://github.com/GonzuDesing" target="_blank"><i
+                            class="bi bi-github "></i> </a></li> -->
+                <li class="title__network__item"><a
+                        href="https://www.linkedin.com/in/fernando-lobo-ramirez-98976936/?originalSubdomain=cr" target="_blank"><i
+                            class="bi bi-linkedin"></i></a></li>
+                
+<li class="title__network__item"><a href="https://www.facebook.com/EcoFumigacionesLoboZ" target="_blank"><i
+            class="bi bi-facebook"></i> </a></li>
+                <li class="title__network__item"><a href="" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                <li class="title__network__item"><a href="mailto:eco.fumigaciones.loboz@gmail.com target="_blank"><i
+                            class="bi bi-envelope"></i></a></li>
+            </ul>
+            <p>Copyright © 2022 - GonzuDesing | Dev 💻</p>
+        </div>
+    </section>
+
+<!-- Script del documento JavaScript -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="./js/form-validations.js"></script>
+<script src="./js/nav.js"></script>
+
+
+
+    <!-- Script del documento JavaScript -->
+   <script type="text/javascript">
+    $(function () {
+        $('#myButton').floatingWhatsApp({
+            phone: '84700326',
+            popupMessage: 'Hola somos ,Ecofumigaciones LoboZ, como le podemos ayudar',
+            message: "Me gustaria info",
+            showPopup: true,
+            showOnIE: false,
+            headerTitle: 'Welcome!',
+            headerColor: 'green',
+            backgroundColor: 'green',
+            buttonImage: '<img src="whatsapp.svg" />'
+        });
+    });
+</script>
+</body>
+
+</html>

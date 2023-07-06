@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Floating Whatsapp Chat Demo</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="whatsapp-chat.js"></script>
+    <link rel="stylesheet" href="whatsapp-chat.css">
+  
+</head>
+
+<body><div id="jquery-script-menu">
+<div class="jquery-script-center">
+
+
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+
+    <div id="example"></div>
+
+</body>
+
+<script type="text/javascript">
+    whatsappchat.multipleUser(
+  {
+    selector: '#example',
+    users: [
+      {
+        name:'EcoFumigacionesLobo',
+        phone: '84700326',
+        designation: 'EcoFumigacionesLobo',
+        image : './img/fm.jpg'
+      },
+    ],
+    headerMessage: 'Feel free to ask any questions in <strong>WhatsApp</strong>',
+    chatBoxMessage: 'Team replies in a minute',
+    color: '#25D366',
+  }
+);
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1VDDWMRSTH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1VDDWMRSTH');
+</script>
+<script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+</html>
